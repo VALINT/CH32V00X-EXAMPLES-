@@ -3,7 +3,7 @@
 # Simple blink.
   My first blink on RISK-V
 # Spectrum analyzer
-  128 points FFT (fixed point 16bsts FFT).
+  128 points FFT (fixed point 16bsts FFT). CH32V003 + SPD0301 (SSD1306) + ADC + TIM2 + SPI + DMA.
   Spectrum analyzer based on RISK-V MCU CH32V003 (with RV32E CPU core without multiplying instructions). 
   Software multiplying takes almost 400 nS which is quite good. The result of conversion is drawing on the OLED display built on the SPD0301 controller via 
   SPI.
