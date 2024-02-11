@@ -27,6 +27,7 @@
   For Fs = 16000 Hz, we can display 64 bins from 0 Hz to 7875 Hz with step 125 Hz.
   For Fs = 8000 Hz, we can display 64 bins from 0 Hz to 3937,5 Hz with step 62,5 Hz.
 
+  The result of the FFT is shown as 64 bars with linear frequency and linear amplitude change.
   The result of the transformation of the square signal with a frequency of 1 kHz is shown in the next picture:
   
   ![Top View](2311_FFT128/Description/Input_Meandr_1kHz.png)
