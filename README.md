@@ -1,8 +1,8 @@
 # CH32V003-EXAMPLES-
 
-# Simple blink.
+# 1. Simple blink
   My first blink on RISK-V
-# Spectrum analyzer
+# 2. Spectrum analyzer
   128 points FFT (fixed point 16bsts FFT). CH32V003 + SPD0301 (SSD1306) + ADC + TIM2 + SPI + DMA.
   Spectrum analyzer based on RISK-V MCU CH32V003 (with RV32E CPU core without multiplying instructions). 
   Software multiplying takes almost 400 nS which is quite good. The result of conversion is drawing on the OLED display built on the SPD0301 controller via 
@@ -16,7 +16,7 @@
   
   For different speed modes, it is necessary to design a Low-pass filter with a cut-off frequency that is equal to half of the sampling rate to avoid 
   aliasing.
-  Based on sample rates the resolution in the frequency zone is next: 
+  Based on sample rates, the resolution in the frequency domain is next: 
   
     F0 = Fs/N 
   
