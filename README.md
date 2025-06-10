@@ -1,8 +1,9 @@
-# CH32V003-EXAMPLES-
+# CH32V00x-EXAMPLES-
+This repo contains different primitive and simple things based on CH32V002, CH32V003 and CH32V006 MCUs.
 
-# 1. Simple blink
+# 1. Simple blink - CH32V003(But is not limited)
   My first blink on RISK-V
-# 2. Spectrum analyzer
+# 2. Spectrum analyzer - CH32V003(But is not limited)
   128 points FFT (fixed point 16bsts FFT). CH32V003 + SPD0301 (SSD1306) + ADC + TIM2 + SPI + DMA.
   Spectrum analyzer based on RISK-V MCU CH32V003 (with RV32E CPU core without multiplying instructions). 
   Software multiplying takes almost 400 nS which is quite good. The result of conversion is drawing on the OLED display built on the SPD0301 controller via 
