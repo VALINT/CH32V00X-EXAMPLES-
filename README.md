@@ -6,8 +6,11 @@ This repository contains various primitive and simple demos based on the CH32V00
 # 2. Spectrum analyzer - CH32V003(But is not limited)
   A 128-point FFT is implemented using 16-bit fixed-point arithmetic. The system is built around the CH32V003 RISC-V microcontroller, an SPD0301 (SSD1306-compatible) OLED display, an ADC, TIM2, SPI, and DMA.
   The spectrum analyzer is based on the CH32V003 RISC-V MCU, which uses an RV32E CPU core without hardware multiplication support. Software-based multiplication takes approximately 400 ns per operation, which is an acceptable performance for this application. The FFT results are rendered on an OLED display driven by the SPD0301 controller via the SPI interface.
+  
   The schematic tracer of the device:
+  ![Top View](2311_FFT128/Description/st.png)
 
+  
   The device supports three sampling rate modes:
   - 32000 Sp/s
   - 16000 Sp/s
